@@ -4,6 +4,7 @@
   "description": "a react components library which aids in rapid development",
   "main": "build/index.js",
   "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "babel lib -d build",
     "build:watch": "babel lib -w -d build",
     "lint": "eslint lib/**; exit 0",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/sadikie/component-lib#readme",
   "devDependencies": {
+    "@storybook/react": "^3.2.8",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
